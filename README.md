@@ -18,5 +18,18 @@ This project is the design and prototyping of a robotic arm that will be control
 *Preliminary failure modes and design considerations*
 *References for any external material (manuals, patents, data sheets, etc.)*
 ### Phase 2
-
+*Phase 2 Video*
+*Overview of your final design (with key CAD images)*
+*Description of major design decisions and changes from Phase 1*
+*Detailed explanation of required analyses (shaft, gear, fatigue, bearings,
+interfaces, etc.) with clear assumptions and results*
+*Discussion of design for assembly and design for 3D printing*
+*Updated list of anticipated risks or weaknesses to be addressed in prototyping*
 ### Phase 3
+*Phase 3 Video*
+*Fabrication details (filament type, printer, settings, number of reprints)*
+*Assembly procedure and challenges*
+*Test procedures, results, and interpretation*
+*Comparison with Phase 2 predictions (where applicable)*
+*Detailed discussion of failures, mistakes, and surprises*
+*Concrete list of design changes you would implement in a second iteration*
