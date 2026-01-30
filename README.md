@@ -1,7 +1,8 @@
 # Hydraulic Robotic Arm
 ***Stress and Strain Gang***
 
-<img width="640" height="320" alt="SSGGitHubLogo" src="https://github.com/user-attachments/assets/d0fb79e7-954d-44d8-99bb-8170d6131294" />
+<img width="1536" height="1024" alt="GPTSSG" src="https://github.com/user-attachments/assets/9ac9a32c-08a5-4b32-8829-c94b6ce13e38" />
+
 
 *Jason Bruzas, Thomas Holtom, Zachary Miller, Anthony Nguyen, Diego Ordaz, Brennan Sweeten*
 
