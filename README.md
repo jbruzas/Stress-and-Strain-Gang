@@ -67,5 +67,6 @@ There will be two arm segments that can rotate indepentantly, giving the arm two
 Failures are most likely to occur at the pin joints. 
 
 ### References for any external material (manuals, patents, data sheets, etc.)
-
+https://www.nextengineers.org/sites/default/files/resources/hydraulic_robot_arm.pdf
+https://hackaday.io/project/198164/logs
 
