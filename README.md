@@ -62,10 +62,7 @@ The robotic arm will have two main segments, the upper arm and forearm. Each seg
 
 ### Kinematic description and basic calculations
 There will be two arm segments that can rotate indepentantly, giving the arm two degrees of freedom in the position of the claw.
-
-<img src="[image-url](https://drive.google.com/file/d/16iHakT3HavdEoLOP7Y60cRtXpyEw2REX/view?usp=drive_link)" alt="RoboticArmDesmos.gif" width="282" height="532">
-
-![RoboticArmDesmos](https://github.com/user-attachments/assets/0ec2280c-d8a3-41ff-bc54-addcb7ef8192)
+![RoboticArmDesmosQuarterScale](https://github.com/user-attachments/assets/cd7bcf04-76a5-4b8e-a0b8-47239718c60c)
 
 
 ### Preliminary failure modes and design considerations
