@@ -60,7 +60,9 @@ Robotic arms have many uses in manufacuting and assembly. They are used for repe
 <img width="466" height="278" alt="image" src="https://github.com/user-attachments/assets/1cd4192c-d1b7-461b-8d68-6fb32ebeac1a" />
 
 ### Component breakdown with labeled figures/sketches
+*Claw*
 
+<img width="500" height="219" alt="image" src="https://github.com/user-attachments/assets/e1d2c6be-3ed8-449a-a4c3-74f8aa14c571" />
 
 
 ### Kinematic description and basic calculations
