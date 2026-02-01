@@ -55,15 +55,20 @@ This project is the design and prototyping of a robotic arm that will be control
 (Video at top?)
 
 ### System description and functional overview
-Robotic arms have many uses in manufacuting and assembly. They are used for repetitive tasks like welding, sorting, or milling. These tasks are often done automatically. To be able to assist in or perform these tasks, the arm needs to pick up, maneuver, move, and hold items. For the purpose of this project, the robotic arm should be able to pick up and hold a 1 kilogram object, and will move via hydraulic power.
+Robotic arms have many uses in manufacuting and assembly. They are used for repetitive tasks like welding, sorting, or milling. These tasks are often done automatically. To be able to assist in or perform these tasks, the arm needs to pick up, maneuver, move, and hold items. For the purpose of this project, the robotic arm should be able to pick up and hold a 1 kilogram object, and will move via hydraulic power. The robotic arm will have three main segments, the base, the upper arm and forearm. The top two segments will have hydraulics attached to control the angles of each arm.
+
+<img width="466" height="278" alt="image" src="https://github.com/user-attachments/assets/1cd4192c-d1b7-461b-8d68-6fb32ebeac1a" />
 
 ### Component breakdown with labeled figures/sketches
-The robotic arm will have two main segments, the upper arm and forearm. Each segment will have a hydraulic attached to control the rotation of that arm.
+
+
 
 ### Kinematic description and basic calculations
 There will be two arm segments that can rotate indepentantly, giving the arm two degrees of freedom in the position of the claw.
+
 ![RoboticArmDesmosQuarterScale](https://github.com/user-attachments/assets/cd7bcf04-76a5-4b8e-a0b8-47239718c60c)
 
+The position of the claw can be obtained from the lengths of the hydraulics using cosine law and trivial trigonometry relationships. However, determining appropriate hydraulic lengths based on desired claw position is a much more difficult task, requiring the inverse of the prior equations. This is difficult because isolating the hydraulic lengths requires rigorous application of trigonometric identities. These calculations are necessary for automatic robotic arms, but not for manual control, as the operator is able to adjust the hydraulics through trial and error.
 
 ### Preliminary failure modes and design considerations
 Failures are most likely to occur at the pin joints. 
