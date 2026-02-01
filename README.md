@@ -60,19 +60,19 @@ Robotic arms have many uses in manufacuting and assembly. They are used for repe
 ### Component breakdown with labeled figures/sketches
 ***Claw***
 
-In the initial stages of sketching the design for the claw sub-system, the main issue that presented itself was the angle at which the hand-like component would grip an object in the main operating event. The initial design consisted of an angled grip system, allowing the claw to wrap the linkages around the side of an object. This was ultimately rejected due to the fundamental issue of objects slipping out before full closure. Instead, a more favorable design was considered with an ingenious solution: a two bar system that can allow the claw to open horizontally with the linear motion of a controlled hydraulic.
+In the initial stages of sketching the design for the claw subsystem, the main issue that presented itself was the angle at which the hand-like component would grip an object in the main operating event. The initial design consisted of an angled grip system, allowing the claw to wrap the linkages around the side of an object. This was ultimately rejected due to the fundamental issue of objects slipping out before full closure. Instead, a more favorable design was considered with an ingenious solution: a two bar system that can allow the claw to open horizontally with the linear motion of a controlled hydraulic.
 
-*Initial concept drawing of claw sub-system*
+*Initial concept drawing of claw subsystem*
 
 <img width="158" height="123" alt="image" src="https://github.com/user-attachments/assets/60a30817-5172-4971-b79d-60f5468b8f65" />
 
-*Pre-design drawing of claw sub-system with two bar mechanism*
+*Pre-design drawing of claw subsystem with two bar mechanism*
 
 <img width="500" height="219" alt="image" src="https://github.com/user-attachments/assets/e1d2c6be-3ed8-449a-a4c3-74f8aa14c571" />
 
 ***Hydraulic***
 
-The hydraulic sub-system is a key component for the hydraulic arm system to function. It must provide the capability for consistent extension and retraction in a linear direction for actuation of the arm member rotations. The hydraulic was modeled after standard fluid input/output hydraulics, and features the hydraulic barrel, fluid extension and retraction ports, piston, and piston rod as the main composition of the design chosen to perform the tasks needed for operating the hydraulic arm. In total, 3 hydraulic cylinders are necessary for the proper functions of the arm, including rotary motion in the main joints and claw sub-system.
+The hydraulic subsystem is a key component for the hydraulic arm system to function. It must provide the capability for consistent extension and retraction in a linear direction for actuation of the arm member rotations. The hydraulic was modeled after standard fluid input/output hydraulics, and features the hydraulic barrel, fluid extension and retraction ports, piston, and piston rod as the main composition of the design chosen to perform the tasks needed for operating the hydraulic arm. In total, 3 hydraulic cylinders are necessary for the proper functions of the arm, including rotary motion in the main joints and claw subsystem.
 
 *Pre-design drawing of hydraulic sub-system*
 
