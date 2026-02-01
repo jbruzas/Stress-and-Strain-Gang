@@ -65,9 +65,11 @@ Robotic arms have many uses in manufacuting and assembly. They are used for repe
 In the initial stages of sketching the design for the claw sub-system, the main issue that presented itself was the angle at which the hand-like component would grip an object in the main operating event. The initial design consisted of an angled grip system, allowing the claw to wrap the linkages around the side of an object. This was ultimately rejected due to the fundamental issue of objects slipping out before full closure. Instead, a more favorable design was considered with an ingenious solution: a two bar system that can allow the claw to open horizontally with very marginal rotation.
 
 *Initial concept drawing of claw sub-system*
+
 <img width="158" height="123" alt="image" src="https://github.com/user-attachments/assets/60a30817-5172-4971-b79d-60f5468b8f65" />
 
 *Pre-design drawing of claw sub-system with two bar mechanism*
+
 <img width="500" height="219" alt="image" src="https://github.com/user-attachments/assets/e1d2c6be-3ed8-449a-a4c3-74f8aa14c571" />
 
 ### Kinematic description and basic calculations
