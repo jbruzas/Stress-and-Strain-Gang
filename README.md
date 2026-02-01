@@ -6,9 +6,6 @@
 
 *Jason Bruzas, Thomas Holtom, Zachary Miller, Anthony Nguyen, Diego Ordaz, Brennan Sweeten*
 
-## Summary
-This project is the design and prototyping of a robotic arm that will be controlled primarily with hydraulics. 
-
 
 ## Table of Contents
 ### [Phase 1](#phase-1-1)
