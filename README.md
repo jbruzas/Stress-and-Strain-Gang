@@ -76,4 +76,5 @@ The failure can happen at the pinned joints, for the cut-out of the holes in the
 ### References for any external material (manuals, patents, data sheets, etc.)
 https://www.nextengineers.org/sites/default/files/resources/hydraulic_robot_arm.pdf
 https://hackaday.io/project/198164/logs
+https://dspace.mit.edu/bitstream/handle/1721.1/89359/51805839-MIT.pdf?sequence=2#:~:text=At%20high%20loads%20and%20low,of%20the%20tests%20are%20presented.
 
