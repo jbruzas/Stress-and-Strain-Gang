@@ -66,7 +66,7 @@ There will be two arm segments that can rotate indepentantly, giving the arm two
 
 
 ### Preliminary failure modes and design considerations
-Failures are most likely to occur at the pin joints. 
+The failure can happen at the pinned joints, for the cut-out of the holes in the beams can cause stress concentrations. Using the wrong pins or sizing can drastically affect the performance of the hydraulic arm. For example, a severe form of adhesive wear known as galling damage can cause the pins and bearings to tear due to high pressure and friction. Without proper maintenance, this can cause the hydraulic arm to stiffen until it can no longer move, effectively making the system useless. To ensure that this does not happen, a study conducted by Nader Farzaneh (in his thesis, Failure Analysis and Design of a Heavily Loaded Pin Joint) suggests that an undercut bushing will provide the longest longevity compared to other methods of pin jointing. Other ways to extend the life-time of the pins can be to lubricate the bearings and perform stress concentration calculations to determine where we will drill the hole as well as how large of a hole.
 
 ### References for any external material (manuals, patents, data sheets, etc.)
 https://www.nextengineers.org/sites/default/files/resources/hydraulic_robot_arm.pdf
