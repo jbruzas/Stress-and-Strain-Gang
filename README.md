@@ -6,7 +6,6 @@
 
 *Jason Bruzas, Thomas Holtom, Zachary Miller, Anthony Nguyen, Diego Ordaz, Brennan Sweeten*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=Zme-RjBiwCUdbTGr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Table of Contents
 ### [Phase 1](#phase-1-1)
