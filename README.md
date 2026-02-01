@@ -14,7 +14,7 @@ This project is the design and prototyping of a robotic arm that will be control
 ### Phase 1
 *Phase 1 Video*
 
-[*System description and functional overview*](###System-description-and-functional-overview) 
+[*System description and functional overview*](#System-description-and-functional-overview) 
 
 *Component breakdown with labeled figures/sketches*
 
