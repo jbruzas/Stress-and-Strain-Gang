@@ -6,7 +6,9 @@
 
 *Jason Bruzas, Thomas Holtom, Zachary Miller, Anthony Nguyen, Diego Ordaz, Brennan Sweeten*
 
-[![Rickroll](https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=nTQUwghvy5Q" target="_blank">
+ <img src="http://img.youtube.com/vi/nTQUwghvy5Q/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 ## Table of Contents
 ### [Phase 1](#phase-1-1)
