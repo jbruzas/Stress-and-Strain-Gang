@@ -86,8 +86,8 @@ The hydraulic subsystem is a key component for the hydraulic arm system to funct
 There will be two arm segments that can rotate indepentantly, giving the arm two degrees of freedom in the position of the claw.
 
 ![RoboticArmDesmosQuarterScale](https://github.com/user-attachments/assets/cd7bcf04-76a5-4b8e-a0b8-47239718c60c)
-<img width="425" height="419" alt="AngleCalcs" src="https://github.com/user-attachments/assets/09fae91d-21a5-423d-abcb-42df611f85e8" />
-
+<img width="265" height="262" alt="AngleCalcs" src="https://github.com/user-attachments/assets/09fae91d-21a5-423d-abcb-42df611f85e8" />
+<img width="722" height="578" alt="ParameterLabels" src="https://github.com/user-attachments/assets/da28e28a-7660-40e7-9073-c282fefc4517" />
 
 
 The position of the claw can be obtained from the lengths of the hydraulics using cosine law and trivial trigonometry relationships. However, determining appropriate hydraulic lengths based on desired claw position is a much more difficult task, requiring the inverse of the prior equations. This is difficult because isolating the hydraulic lengths requires rigorous application of trigonometric identities. These calculations are necessary for automatic robotic arms, but not for manual control, as the operator is able to adjust the hydraulics through trial and error. 
