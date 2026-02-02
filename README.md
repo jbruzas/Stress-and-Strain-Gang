@@ -52,9 +52,7 @@
 ## Phase 1
 ### Phase 1 Video
 
-[![Phase 1 Video]
-(https://img.youtube.com/vi/||/maxresdefault.jpg)]
-([https://www.youtube.com/watch?v=||](https://youtu.be/qbWg8F8cuA8))
+[![Phase 1 Video](figures/Phase1Thumbnail.png)](https://www.youtube.com/watch?v=qbWg8F8cuA8)
 
 ### System description and functional overview
 Robotic arms have many uses in manufacuting and assembly. They are used for repetitive tasks like welding, sorting, or milling. These tasks are often done automatically. To be able to assist in or perform these tasks, the arm needs to pick up, maneuver, move, and hold items. For the purpose of this project, the robotic arm should be able to pick up and hold a 1 kilogram object, and will move via hydraulic power. The robotic arm will have three main segments, the base, the upper arm and forearm. The top two segments will have hydraulics attached to control the angles of each arm.
