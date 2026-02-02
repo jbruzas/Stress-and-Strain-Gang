@@ -95,7 +95,11 @@ By assuming that system is undergoing quasi-static equilibrium and that the hydr
 
 Note: The variable names between the Kinematic and Statics calculations will vary as they were done by two separate people. 
 
-From this analysis, it was determined that the bottom hydralic and the left-most pin experience the two highest forces out of any component, making these two components the most likely to fail due to static overload failure. 
+After getting the linear system of equations from the statics calculations, MATLAB was used to solve the system by substituting in reasonable values for each of the unknown constants. From this analysis, it was determined that the bottom hydralic and the left-most pin experience the two highest forces out of any component, making these two components the most likely to fail due to static overload failure. The statics caluation work and the MATLAB code can be accessed below. 
+
+Statics Calculation work: https://drive.google.com/file/d/1Ut7OGnmQNidH3Am7ShedRqDdGQ3p2LGb/view?usp=sharing
+
+MATLAB Code: https://drive.google.com/file/d/1DJdaTfVr9Ji7mV_dZBP7UAXajvhnQ-qj/view?usp=sharing
 
 ### Preliminary failure modes and design considerations
 The failure can happen at the pinned joints, for the cut-out of the holes in the beams can cause stress concentrations. Using the wrong pins or sizing can drastically affect the performance of the hydraulic arm. For example, a severe form of adhesive wear known as galling damage can cause the pins and bearings to tear due to high pressure and friction. Without proper maintenance, this can cause the hydraulic arm to stiffen until it can no longer move, effectively making the system useless. To ensure that this does not happen, a study conducted by Nader Farzaneh (in his thesis, Failure Analysis and Design of a Heavily Loaded Pin Joint) suggests that an undercut bushing will provide the longest longevity compared to other methods of pin jointing. Other ways to extend the life-time of the pins can be to lubricate the bearings and perform stress concentration calculations to determine where we will drill the hole as well as how large of a hole. Another area that needs to be considered is the motion of the beams. If one of the beams rotates too far, it can snap the hydraulics. To prevent this, we can put stoppers to limit the area of motion of each of the beams.
