@@ -55,7 +55,7 @@
 [![Phase 1 Video](figures/Phase1Thumbnail.png)](https://www.youtube.com/watch?v=qbWg8F8cuA8)
 
 ### Executive Summary 
-This report documents all of the phase 1 ideas for the MEE 342 project. These ideas include the system functionality and components, kinamtic calculations, preliminary failure mode review, critical design parameters, and a Youtube video that summarizaes the project. 
+This report documents all of the phase 1 ideas for the MEE 342 project. These ideas include the system functionality and components, kinematic calculations, preliminary failure mode review, critical design parameters, and a Youtube video that summarizaes the project. 
 
 For the Principal of Mechanical Design class, or MEE 342, students in groups are tasked with chosing a mechanical system to design, model, and test. This is meant for students to apply their knoledge of mechanical engineer that they have learned up to this point to a real project. This both allows students to get some experience of how engineering is done in the real world and allows them to better understand the engineer concepts that go into making their designs. This mechanical system must be suitably complex that every single group member is able to contribute, but simple enough that each phase of the project can be completed on time. 
 
