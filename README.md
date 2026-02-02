@@ -12,6 +12,8 @@
 
 [*Phase 1 Video*](#phase-1-video)
 
+[*Executive Summary*](#executive-summary)
+
 [*System description and functional overview*](#System-description-and-functional-overview) 
 
 [*Component breakdown with labeled figures/sketches*](#component-breakdown-with-labeled-figuressketches)
@@ -55,11 +57,11 @@
 [![Phase 1 Video](figures/Phase1Thumbnail.png)](https://www.youtube.com/watch?v=qbWg8F8cuA8)
 
 ### Executive Summary 
-The purpose of the phase 1 report includes the system functionality and components, kinematic calculations, preliminary failure mode review, critical design parameters, and a Youtube video that summarizaes the project. 
+The purpose of the phase 1 report includes the system functionality and components, kinematic calculations, preliminary failure mode review, critical design parameters, and a YouTube video that summarizes the project. 
 
-The groups are tasked with chosing a mechanical system to design, model, and test. This is meant for students to apply their knowledge of mechanical engineer that they have learned up to this point to a real project. This both allows students to get some experience of how engineering is done in the real world and allows them to better understand the engineer concepts that go into making their designs. This mechanical system must be suitably complex that every single group member is able to contribute, but simple enough that each phase of the project can be completed on time. 
+The groups are tasked with choosing a mechanical system to design, model, and test. This is meant for students to apply their knowledge of mechanical engineering that they have learned up to this point to a real project. This both allows students to get some experience of how engineering is done in the real world and allows them to better understand the engineering concepts that go into making their designs. This mechanical system must be suitably complex so that every single group member is able to contribute but simple enough that each phase of the project can be completed on time. 
 
-The mechanical system chosen to be studied was that of a hydraulic arm. The use of hydraulics is a cornerstone of many civil engineering and robotics projects, so understanding them is of key important to mechanical engineers. The hydralic arm chosen has 2 degrees of freedom because it has two hydraulics that control the position of the arm. These two degrees of freedom make the hydraulic arm suitably complex enough that CAD software and a lot of manpower is needed to fully understand the kinematics and statics of the arm. Thus, a hydraulic arm is excellent for fulfilling the criteria of the project being suitably complex here each group member contributes and it teaches how to apply hydraulics to a real engineering problem. 
+The mechanical system chosen to be studied was that of a hydraulic arm. The use of hydraulics is a cornerstone of many civil engineering and robotics projects, so understanding them is of key importance to mechanical engineers. The hydraulic arm chosen has 2 degrees of freedom because it has two hydraulics that control the position of the arm. These two degrees of freedom make the hydraulic arm suitably complex enough that CAD software and a lot of manpower is needed to fully understand the kinematics and statics of the arm. Thus, a hydraulic arm is excellent for fulfilling the criteria of the project being suitably complex; here, each group member contributes and it teaches how to apply hydraulics to a real engineering problem. 
 
 The plan after the phase 1 report is completed is too immediately start creating CAD models of the hydraulic arm so the design process can begin. From this, the specification of each component can be fully identified and the kinematics and statics of the CAD models can be analyzed using FEM to see if the ideas work in theory. The CAD models will be designed in Solidworks or Ansys, with the FEM being handled by Ansys. 
 
