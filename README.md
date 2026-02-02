@@ -91,7 +91,7 @@ The position of the claw can be obtained from the lengths of the hydraulics usin
 
 By assuming that system is undergoing quasi-static equilibrium and that the hydraulics only have axial forces going through them, it is possible to create a system of linear equations to solves for the forces on the fixed end at the bottom, forces on the two internal pins of the arm, and the internal force in the hydraulics. In conjunction with the kinematic calculations from earlier, one can predict the forces within the hydraulic arm when knowing the lengths of the members, the positions of the hydraulics, the mass of the system, the mass of the weight picked up by the claw, and the current lenght of the hydraulics. The Free Body diagrams from this calculation can be seen below: 
 
-
+<img width="500" height="355" alt="Phase 1 - FBDs" src="https://github.com/user-attachments/assets/568e9665-c5a6-41dc-9ba4-6ab91015f2c8" />
 
 From this analysis, it was determined that the hydralic from the bottom to the middle member of the arm experineces the most force out of any component and the left-most pin experiences the 2nd highest force, making these two components the most likely to fail due to static overload failure. 
 
