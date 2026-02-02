@@ -61,38 +61,38 @@ The purpose of the phase 1 report includes the system functionality and componen
 
 The groups are tasked with choosing a mechanical system to design, model, and test. This is meant for students to apply their knowledge of mechanical engineering that they have learned up to this point to a real project. This both allows students to get some experience of how engineering is done in the real world and allows them to better understand the engineering concepts that go into making their designs. This mechanical system must be suitably complex so that every single group member is able to contribute but simple enough that each phase of the project can be completed on time. 
 
-The mechanical system chosen to be studied was that of a hydraulic arm. The use of hydraulics is a cornerstone of many civil engineering and robotics projects, so understanding them is of key importance to mechanical engineers. The hydraulic arm chosen has 2 degrees of freedom because it has two hydraulics that control the position of the arm. These two degrees of freedom make the hydraulic arm suitably complex enough that CAD software and a lot of manpower is needed to fully understand the kinematics and statics of the arm. Thus, a hydraulic arm is excellent for fulfilling the criteria of the project being suitably complex; here, each group member contributes and it teaches how to apply hydraulics to a real engineering problem. 
+The mechanical system chosen to be studied was that of a hydraulic arm. The use of hydraulics is a cornerstone of many civil engineering and robotics projects, so understanding them is of key importance to mechanical engineers. The hydraulic arm chosen has 2 degrees of freedom because it has two hydraulics that control the position of the arm. These two degrees of freedom make the hydraulic arm suitably complex enough that CAD software and a lot of manpower is needed to fully understand the kinematics and statics of the arm. Thus, a hydraulic arm is excellent for fulfilling the criteria of the project being suitably complex; here, each group member contributes, and it teaches how to apply hydraulics to a real engineering problem. 
 
-The plan after the phase 1 report is completed is too immediately start creating CAD models of the hydraulic arm so the design process can begin. From this, the specification of each component can be fully identified and the kinematics and statics of the CAD models can be analyzed using FEM to see if the ideas work in theory. The CAD models will be designed in Solidworks or Ansys, with the FEM being handled by Ansys. 
+The plan after the phase 1 report is completed is to immediately start creating CAD models of the hydraulic arm so the design process can begin. From this, the specification of each component can be fully identified, and the kinematics and statics of the CAD models can be analyzed using FEM to see if the ideas work in theory. The CAD models will be designed in Solidworks or Ansys, with the FEM being handled by Ansys. 
 
 ### System description and functional overview
-Robotic arms have many uses in manufacuting and assembly. They are used for repetitive tasks like welding, sorting, or milling. These tasks are often done automatically. To be able to assist in or perform these tasks, the arm needs to pick up, maneuver, move, and hold items. For the purpose of this project, the robotic arm should be able to pick up and hold a 1 kilogram object, and will move via hydraulic power. The robotic arm will have three main segments, the base, the upper arm and forearm. The top two segments will have hydraulics attached to control the angles of each arm.
+Robotic arms have many uses in manufacturing and assembly. They are used for repetitive tasks like welding, sorting, or milling. These tasks are often done automatically. To be able to assist in or perform these tasks, the arm needs to pick up, maneuver, move, and hold items. For the purpose of this project, the robotic arm should be able to pick up and hold a 1-kilogram object and will move via hydraulic power. The robotic arm will have three main segments: the base, the upper arm, and the forearm. The top two segments will have hydraulics attached to control the angles of each arm.
 
 <img width="466" height="278" alt="image" src="https://github.com/user-attachments/assets/1cd4192c-d1b7-461b-8d68-6fb32ebeac1a" />
 
 ### Component breakdown with labeled figures/sketches
 #### Claw
 
-In the initial stages of sketching the design for the claw subsystem, the main issue that presented itself was the angle at which the hand-like component would grip an object in the main operating event. The initial design consisted of an angled grip system, allowing the claw to wrap the linkages around the side of an object. This was ultimately rejected due to the fundamental issue of objects slipping out before full closure. Instead, a more favorable design was considered with an ingenious solution: a two bar system that can allow the claw to open horizontally with the linear motion of a controlled hydraulic.
+In the initial stages of sketching the design for the claw subsystem, the main issue that presented itself was the angle at which the hand-like component would grip an object in the main operating event. The initial design consisted of an angled grip system, allowing the claw to wrap the linkages around the side of an object. This was ultimately rejected due to the fundamental issue of objects slipping out before full closure. Instead, a more favorable design was considered with an ingenious solution: a two-bar system that can allow the claw to open horizontally with the linear motion of a controlled hydraulic.
 
 *Initial concept drawing of claw subsystem*
 
 <img width="158" height="123" alt="image" src="https://github.com/user-attachments/assets/60a30817-5172-4971-b79d-60f5468b8f65" />
 
-*Pre-design drawing of claw subsystem with two bar mechanism*
+*Pre-design drawing of claw subsystem with two-bar mechanism*
 
 <img width="500" height="219" alt="image" src="https://github.com/user-attachments/assets/e1d2c6be-3ed8-449a-a4c3-74f8aa14c571" />
 
 #### Hydraulic
 
-The hydraulic subsystem is a key component for the hydraulic arm system to function. It must provide the capability for consistent extension and retraction in a linear direction for actuation of the arm member rotations. The hydraulic was modeled after standard fluid input/output hydraulics, and features the hydraulic barrel, fluid extension and retraction ports, piston, and piston rod as the main composition of the design chosen to perform the tasks needed for operating the hydraulic arm. In total, 3 hydraulic cylinders are necessary for the proper functions of the arm, including rotary motion in the main joints and claw subsystem.
+The hydraulic subsystem is a key component for the hydraulic arm system to function. It must provide the capability for consistent extension and retraction in a linear direction for actuation of the arm member rotations. The hydraulic was modeled after standard fluid input/output hydraulics and features the hydraulic barrel, fluid extension and retraction ports, piston, and piston rod as the main composition of the design chosen to perform the tasks needed for operating the hydraulic arm. In total, 3 hydraulic cylinders are necessary for the proper functions of the arm, including rotary motion in the main joints and claw subsystem.
 
-*Pre-design drawing of hydraulic sub-system*
+*Pre-design drawing of hydraulic subsystem*
 
 ![Hydraulic System Drawing](https://github.com/user-attachments/assets/c069c980-c87d-4b6b-8714-37fba50fda19)
 
 ### Kinematic description and basic calculations
-There will be two arm segments that can rotate indepentantly, giving the arm two degrees of freedom in the position of the claw.
+There will be two arm segments that can rotate independently, giving the arm two degrees of freedom in the position of the claw.
 
 ![RoboticArmDesmosQuarterScale](https://github.com/user-attachments/assets/cd7bcf04-76a5-4b8e-a0b8-47239718c60c)
 <img width="265" height="262" alt="AngleCalcs" src="https://github.com/user-attachments/assets/09fae91d-21a5-423d-abcb-42df611f85e8" />
@@ -101,13 +101,13 @@ There will be two arm segments that can rotate indepentantly, giving the arm two
 
 The position of the claw can be obtained from the lengths of the hydraulics using cosine law and trivial trigonometry relationships. However, determining appropriate hydraulic lengths based on desired claw position is a much more difficult task, requiring the inverse of the prior equations. This is difficult because isolating the hydraulic lengths requires rigorous application of trigonometric identities. These calculations are necessary for automatic robotic arms, but not for manual control, as the operator is able to adjust the hydraulics through trial and error. 
 
-By assuming that system is undergoing quasi-static equilibrium and that the hydraulics only have axial forces going through them, it is possible to create a system of linear equations to solves for the forces on the fixed end at the bottom, forces on the two internal pins of the arm, and the internal force in the hydraulics. In conjunction with the kinematic calculations from earlier, one can predict the forces within the hydraulic arm when knowing the lengths of the members, the positions of the hydraulics, the mass of the system, the mass of the weight picked up by the claw, and the current lenght of the hydraulics. The Free Body diagrams from this calculation can be seen below: 
+By assuming that the system is undergoing quasi-static equilibrium and that the hydraulics only have axial forces going through them, it is possible to create a system of linear equations to solve for the forces on the fixed end at the bottom, the forces on the two internal pins of the arm, and the internal force in the hydraulics. In conjunction with the kinematic calculations from earlier, one can predict the forces within the hydraulic arm when knowing the lengths of the members, the positions of the hydraulics, the mass of the system, the mass of the weight picked up by the claw, and the current length of the hydraulics. The Free Body diagrams from this calculation can be seen below: 
 
 <img width="500" height="355" alt="Phase 1 - FBDs" src="https://github.com/user-attachments/assets/568e9665-c5a6-41dc-9ba4-6ab91015f2c8" />
 
 Note: The variable names between the Kinematic and Statics calculations will vary as they were done by two separate people. 
 
-After getting the linear system of equations from the statics calculations, MATLAB was used to solve the system by substituting in reasonable values for each of the unknown constants. From this analysis, it was determined that the bottom hydralic and the left-most pin experience the two highest forces out of any component, making these two components the most likely to fail due to static overload failure. The statics caluation work and the MATLAB code can be accessed below. 
+After getting the linear system of equations from the statics calculations, MATLAB was used to solve the system by substituting in reasonable values for each of the unknown constants. From this analysis, it was determined that the bottom hydraulic and the left-most pin experience the two highest forces out of any component, making these two components the most likely to fail due to static overload failure. The statics caluation work and the MATLAB code can be accessed below. 
 
 Statics Calculation work: https://drive.google.com/file/d/1Ut7OGnmQNidH3Am7ShedRqDdGQ3p2LGb/view?usp=sharing
 
