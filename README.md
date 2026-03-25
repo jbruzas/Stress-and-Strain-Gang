@@ -128,3 +128,16 @@ https://www.nextengineers.org/sites/default/files/resources/hydraulic_robot_arm.
 https://hackaday.io/project/198164/logs
 https://dspace.mit.edu/bitstream/handle/1721.1/89359/51805839-MIT.pdf?sequence=2#:~:text=At%20high%20loads%20and%20low,of%20the%20tests%20are%20presented.
 
+## Phase 2 
+### Phase 2 Video
+
+### Overview of the Final Design
+
+### Major Design Decision and Changes
+
+### Explanation of Required Analyses
+
+### Design for Assembly (3D Printing?)
+
+### Updated Risks and/or Weaknesses Addressed
+
