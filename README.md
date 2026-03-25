@@ -145,7 +145,7 @@ The length of the upper and lower arms together should be 20% longer than the in
 
 ### Explanation of Required Analyses
 
-There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis done in SOLIDWORKS was done on an assembly of the entire claw to identify what the critical angles of the claw are for analysis, the maximum deflection at the claw, and the critical areas of stress in the arm were. The analysis done in ANSYS was done on each of the critical parts individually to determine if they had a factor of safety of at least 3 for static stresses and fatique stresses. The static factor of safety was tested by comparing the von Mises stress to the Young's Modulus of 6061 aluminum. The fatique factor of safety was tested by using a zero-based loading, the Goodman mean stress theory, a design life of 1 million cycles, and the von Mises stress.  
+There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis done in SOLIDWORKS was done on an assembly of the entire claw to identify what the critical angles of the claw are for analysis, the maximum deflection at the claw, and the critical areas of stress in the arm were. The analysis done in ANSYS was done on each of the critical parts individually to determine if they had a factor of safety of at least 3 for static stresses and at least 2 for fatique stresses. The static factor of safety was tested by comparing the von Mises stress to the Young's Modulus of 6061 aluminum. The fatique factor of safety was tested by using a zero-based loading, the Goodman mean stress theory, a design life of 1 million cycles, and the von Mises stress.  
 
 ### Design for Assembly (3D Printing?)
 
