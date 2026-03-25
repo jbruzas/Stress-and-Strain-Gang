@@ -139,7 +139,7 @@ The main design consideration was nailing what the actual scale of the final des
 
 The length of the upper and lower arms together should be 20% longer than the intended maximum reach, or around 1.2 m. At the start of phase 1, it was assumed that the two arms were going to be roughly the same length just to make constructing the inital CAD model easier. However, analyzing the system in both SOLIDWORKS and ANSYS determined that the upper arm needs to be shorter than the lower arm. This is due to the fact that there are significant bending stresses in the middle of the upper arm and there is significant deflection at the edge of the claw. Shortening the upper arm to be about (*insert ratio here*) the size of the lower arm was done to fix the stress and deflection issues. It was eventually chosen that the upper arm should be (*insert length here*) m long and the lower arm is 0.7 m long. 
 
-* Insert explanation for the creation of the claw *
+To create the claw, the initial concept design was referenced. The concept was designed with a four-bar system that translates linear motion (of a hydraulic) to dual, perpendicular linear motion (of the grippers). The links were designed first with the pin holes in mind for connecting the claw pieces together. Secondary links were made to allow room for the arm upon which the claw is mounted. The gripper was initially designed with a flat face, but was subsequently changed mid-modeling to have a channel that can hold rubber or other adhesive for better grip when the claw is in use.
 
 * Insert explanation for the creation of the hydraulics *
 
