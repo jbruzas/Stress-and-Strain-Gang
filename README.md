@@ -133,15 +133,19 @@ https://dspace.mit.edu/bitstream/handle/1721.1/89359/51805839-MIT.pdf?sequence=2
 
 ### Overview of the Final Design
 
-### Major Design Decision and Changes
+### Major Design Decisions and Changes
 
-The main design consideration was nailing what the actual scale of the final design should be. This hydraulic arm is intended to be used in a factor or industrial setting to grab objects and boxes from around a meter away. Thus, the length of the upper and lower arms together should be 20% longer than the intended maximum reach, or around 1.2 m. At the start of phase 1, it was assumed that the two arms were going to be roughly the same length just to make constructing the inital CAD model easier. However, analyzing the system in both SOLIDWORKS and ANSYS determined that the upper arm needs to be shorter than the lower arm. This is due to the fact that there are significant bending stresses in the middle of the upper arm and there is significant deflection at the edge of the claw. Shortening the upper arm to be about (*insert ratio here*) the size of the lower arm was done to fix the stress and deflection issues. It was eventually chosen that the upper arm should be (*insert length here*) m long and the lower arm is 0.7 m long. 
+The main design consideration was nailing what the actual scale of the final design should be. This hydraulic arm is intended to be used in a factory or industrial setting to grab objects and boxes from around a meter away. It was reasoned that the arm should be able to pick up objects that are maximum around 200 kg in mass, or around 1962 N in weight. The material of the arm was decided to be an aluminum alloy, specifically the general "aluminum alloy" in ANSYS and 6061 aluminum alloy in SOLIDWORKS. This was done to make the arm cost effective while still being reasonably strong. 
+
+The length of the upper and lower arms together should be 20% longer than the intended maximum reach, or around 1.2 m. At the start of phase 1, it was assumed that the two arms were going to be roughly the same length just to make constructing the inital CAD model easier. However, analyzing the system in both SOLIDWORKS and ANSYS determined that the upper arm needs to be shorter than the lower arm. This is due to the fact that there are significant bending stresses in the middle of the upper arm and there is significant deflection at the edge of the claw. Shortening the upper arm to be about (*insert ratio here*) the size of the lower arm was done to fix the stress and deflection issues. It was eventually chosen that the upper arm should be (*insert length here*) m long and the lower arm is 0.7 m long. 
 
 * Insert explanation for the creation of the claw *
 
 * Insert explanation for the creation of the hydraulics *
 
 ### Explanation of Required Analyses
+
+There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis done in SOLIDWORKS was done on an assembly of the entire claw to identify what the critical angles of the claw are for analysis, the maximum deflection at the claw, and the critical areas of stress in the arm were. The analysis done in ANSYS was done on each of the critical parts individually to determine if they had a factor of safety of at least 3 for static stresses and fatique stresses. The static factor of safety was tested by comparing the von Mises stress to the Young's Modulus of 6061 aluminum. The fatique factor of safety was tested by using a zero-based loading, the Goodman mean stress theory, a design life of 1 million cycles, and using the von Mises stress.  
 
 ### Design for Assembly (3D Printing?)
 
