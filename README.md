@@ -178,7 +178,9 @@ There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis d
 
 (* Anthony include what you did in your SOLIDWORKS analysis here, including the results *) 
 
-(* Thomas include the motion study stuff here *)
+Using the same assembly as the statics analysis, a motion study was done on the hydraulic arm. This was done my manually moving the claw around to be as close to the claw's full range of motion as possible. When doing this, SOLIDWORKS will create a video of that motion. The video showed that in theory, the hydraulic arm has valid motion with no parts clipping into each other and no way of going outside of its full range of motion. The video of the motion study can be seen below: 
+
+(* Include gif of the motion study *)
 
 The teaching version of ANSYS that is installed on the GWC 481 lab computers was needed for the ANSYS analysis. The student version of ANSYS has a cap on the number of nodes and elements a model can use for its mesh. Every analysis in ANSYS exceeded this number of nodes and elements allowed in the student version, so the teaching version of ANSYS was required for every analysis. 
 
@@ -208,6 +210,8 @@ Unfortunately, the ANSYS simulation predicted even worse stresses within the upp
 ### Discussion of Design for Assembly 
 
 Going into the design, we took inspiration Kawasaki Robotics and Max Auto Parts. Through our research, we determined that the most important design choices were to make the parts lighter as they got further from the base, and to design the structure to be assembled from the bottom up. We did not need to make any decisions related to the types of connections due to the design requiring all connection points to be pin joints. To make the middle arm lighter and easier to attach to the base hydraulic, we decided to move away from it being a single part, instead favoring a design where there are two rectangular beams connected by a block in the middle. This gave more clearance for the base hydraulic, allowing us to use a stronger cylinder as well.
+
+Each of the parts were designed to easily be machined, or are made of multiple pieces which can individually be machined. Two big examples of the latter are the hydraulics and the middle arm, which each have multiple pieces. The hydraulics has a large cylinder and a shaft going through it. The middle arm has two plates which will be bolted together, with a midsection piece to keep the middle arm stable. 
 
 ### Updated List of Anticipated Risks and Weaknesses
 Most of the inital failure modes theorized in phase 1 have been directly addressed in the analysis for phase 2. The main concern with the hydraulics was that if the arm overrotates, the hydraulics have to sustain significant shear stress. Hydraulics are notoriously really bad with shear stress, so they can easily snap if the arm overrotates. By properly resticting the motion of the arm in SOLIDWORKS, it was shown that the hydraulics have no risk of snapping due to having primarily normal stresses. This is assuming that the motion of the arm is properly restricted. If the hydraulic arm encounters a unique loading condition that causes this restriction to fail, then the hydraulics can still break in this way. 
