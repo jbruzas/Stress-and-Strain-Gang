@@ -176,15 +176,25 @@ The final version of the hydraulic arm will use manufacturing grade hydraulics m
 
 There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis done in SOLIDWORKS was done on an assembly of the entire claw to identify what the critical angles of the claw are for analysis, the maximum deflection at the claw, the critical areas of stress in the arm were, and to create a motion study. The analysis done in ANSYS was done on each of the critical parts individually to determine if they had a factor of safety of at least 3 for static stresses and at least 2 for fatigue stresses. The static factor of safety was tested by comparing the von Mises stress to the Yield Strength of 6061 aluminum. The fatigue factor of safety was tested by using a zero-based loading, the Goodman mean stress theory, a design life of 1 million cycles, and the von Mises stress.  
 
-(*Insert SOLIDWORKS analysis here*) 
+(* Anthony include what you did in your SOLIDWORKS analysis here, including the results *) 
+
+(* Thomas include the motion study stuff here *)
 
 The teaching version of ANSYS that is installed on the GWC 481 lab computers was needed for the ANSYS analysis. The student version of ANSYS has a cap on the number of nodes and elements a model can use for its mesh. Every analysis in ANSYS exceeded this number of nodes and elements allowed in the student version, so the teaching version of ANSYS was required for every analysis. 
 
-The parts chosen for an in-depth analysis in ANSYS were (*insert things here*). Each of these parts were analyzed using an initial mesh size of 5 mm. Their geometry with their initial mesh size can be seen in the images below: 
+The parts chosen for an in-depth analysis in ANSYS were the claw and the upper arm. Each of these parts were analyzed using an initial mesh size of 5 mm. Their geometry with their initial mesh size can be seen in the images below: 
 
 Claw Mesh: 
 
 ![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/claw_mesh.png)
+
+Upper Arm Mesh: 
+
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/arm_mesh.png)
+
+The claw was analyzed by applying a 2000 N force to the clampers of the claw, applying displacement boundary conditions to the connections between the claw and the arm, and applying a fixed support boundary condition to the connection where the hydraulic would be. Then, the force and moment reactions were probed for at these points, which will be used in the upper arm analysis. 
+
+The upper arm used the calculated forces and moments (times -1) in the area where it would be connected to the claw. Then, it was assumed that the forces that the hydraulic exerted on the upper arm is similar to what it exerted on the claw, so the force and moment reactions (times -1) between the claw and the hydraulic were reused here. The place where the upper arm would be connected to the middle arm used the fixed support boundary condition to garantee that there would be no rigid body motion.  
 
 There are many places on each part that require a very fine mesh to analyze. To make the analysis as efficient as possible, the faces that had the highest stress were selected to include in an automatic convergence analysis. Only these selected faces will be analyzed with the automatic convergence analysis instead of the entire structure. This saves a lot of time, nodes, and elements. The convergence analysis was chosen to have a maximum change in von Mises stress of 5%. The results of the ANSYS analysis to find the static factor of safety and the fatigue factor of safety can be seen in the table below: 
 
