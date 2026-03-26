@@ -144,7 +144,7 @@ The length of the upper and lower arms together should be 20% longer than the in
 
 To create the claw, the initial concept design was referenced. The concept was designed with a four-bar system that translates linear motion (of a hydraulic) to dual, perpendicular linear motion (of the grippers). The links were designed first with the pin holes in mind for connecting the claw pieces together. Secondary links were made to allow room for the arm upon which the claw is mounted. The gripper was initially designed with a flat face, but was subsequently changed mid-modeling to have a channel that can hold rubber or other adhesive for better grip when the claw is in use.
 
-* Insert explanation for the creation of the hydraulics *
+The hydraulic was designed based off 
 
 ### Explanation of Required Analyses
 
@@ -176,3 +176,5 @@ Another weakness is the length ratio of the arm that connects to the base and th
 | Table     | Organizes data |
 | Markdown  | Plain text formatting |
 | Among | Us | 
+
+https://huanuohyd.com/what-is-a-hydraulic-cylinder/
