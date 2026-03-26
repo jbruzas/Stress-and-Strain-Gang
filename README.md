@@ -178,9 +178,11 @@ There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis d
 
 (* Anthony include what you did in your SOLIDWORKS analysis here, including the results *) 
 
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/Full%20Assembly%20Analysis.png)
+
 Using the same assembly as the statics analysis, a motion study was done on the hydraulic arm. This was done my manually moving the claw around to be as close to the claw's full range of motion as possible. When doing this, SOLIDWORKS will create a video of that motion. The video showed that in theory, the hydraulic arm has valid motion with no parts clipping into each other and no way of going outside of its full range of motion. The video of the motion study can be seen below: 
 
-(* Include gif of the motion study *)
+![Description](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/videos/Phase%202%20Video.gif)
 
 The teaching version of ANSYS that is installed on the GWC 481 lab computers was needed for the ANSYS analysis. The student version of ANSYS has a cap on the number of nodes and elements a model can use for its mesh. Every analysis in ANSYS exceeded this number of nodes and elements allowed in the student version, so the teaching version of ANSYS was required for every analysis. 
 
