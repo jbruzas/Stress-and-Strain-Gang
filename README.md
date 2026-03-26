@@ -133,7 +133,9 @@ https://dspace.mit.edu/bitstream/handle/1721.1/89359/51805839-MIT.pdf?sequence=2
 
 ### Overview of the Final Design
 A hydraulic arm was created using SolidWorks and ANSYS. The choice of using two different softwares comes from the different analyses that both of these softwares can do. With SolidWorks, it can do simple FEA calculations, and its software allows ease of creating components and assembling the components together. On the other hand, ANSYS can do complex FEA calculations and provide a more detailed analysis on how the structure reacts under stress. With both of these softwares in mind, the decision came down to assembling and analyzing the full hydraulic arm in SolidWorks, and then do a more in-depth analysis on each of the components using ANSYS.
-(Inseet images of the isometric, exploded, and each of thee components)
+
+(Insert images of the isometric, exploded, and each of thee components)
+
 ### Major Design Decisions and Changes
 
 The main design consideration was nailing what the actual scale of the final design should be. This hydraulic arm is intended to be used in a factory or industrial setting to grab objects and boxes from around a meter away. It was reasoned that the arm should be able to pick up objects that are maximum around 200 kg in mass, or around 1962 N in weight. The material of the arm was decided to be an aluminum alloy, specifically the general "aluminum alloy" in ANSYS and 6061 aluminum alloy in SOLIDWORKS. This was done to make the arm cost effective while still being reasonably strong. The only component that is not made out of aluminum is a connector that connects the two middle arms together as well as connects the hydraulic components. This part is using Nylon 101.
@@ -159,18 +161,18 @@ There are many places on each part that require a very fine mesh to analyze. To 
 The results of the ANSYS analysis to find the static factor of safety and the fatigue factor of safety can be seen in the table below: 
 
 | Part Analyzed | Static Safety Factor | Fatigue Safety Factor |
-| - - - - - - - - - - - | - - - - - - - - - - - - - - -| - - - - - - - - - - - - - - - - - |
+| --------------| ------------ | ------- |
 | Claw | 3.67 | 2.45 |
-
-
 
 ### Design for Assembly (3D Printing?)
 
 ### Updated Risks and/or Weaknesses Addressed
 With the analysis, there are key locations where stress concentrations can cause the hydraulic arm to fail. With most of the arm's material being 6061-T6, the yield stress of the material is 276 MPa (~40,000 psi). With this in mind, the stress concentrations locate around the arm that connects to the claw. Due to the extruded cuts to allow the claw to maneuver freely without interference, the sharp corners are prone to larger von Mises stresses. To accommodate for these large values, fillets were added, but the concentrations still prevail.
-Another weakness is the length ratio of the arm that connects to the base and the arm that connects to the claw. Initially, while the arm that connects to the base does not undergo large amounts of stress, the arm that connects to the claw does. With a maximum weight of 200 kg, if the length of the arm is too long, then it can snap. Finding the ratio between the two arms is important, where the criteria is to ensure that the upper arm does not snap but can also still pick up objects properly.
+
+Another weakness is the length ratio of the arm that connects to the base and the arm that connects to the claw. Initially, while the arm that connects to the base does not undergo large amounts of stress, the arm that connects to the claw does. With a maximum weight of 200 kg, if the length of the arm is too long, then it can snap due to the very large bending stress. Finding the ratio between the two arms is important, where the criteria is to ensure that the upper arm does not snap but can also still pick up objects properly. The final ratio chosen between the two arms is (*Insert ratio here*). Another way this issue was addressed was by making the upper arm taller than it was initally. Initally, the arm was constructed as a flat plate that was wider than it was tall, which ended up being a mistake. 
 
 | Syntax    | Description |
 | --------- | ----------- |
 | Table     | Organizes data |
 | Markdown  | Plain text formatting |
+| Among | Us | 
