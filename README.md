@@ -144,22 +144,26 @@ Hydraulic Arm Exploded View:
 
 Claw: 
 
-![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Claw%20Image.png)
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Claw%20Dimensioned%20Image.png)
 
 Hydraulic: 
 
-![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Base%20Hydrolic%20Image.png)
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Claw%20Hydrolic%20dimensioned%20Image.png)
 
 Base: 
 
-![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Base%20Image.png)
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Base%20Dimensioned%20Image.png)
 
 Middle Arm:
 
-![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Middle%20Arm%20Image.png)
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/FINALMIDDLEARM1.JPG)
+
+Midsection: 
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Middle%20Section%20Dimensioned%20Image.png)
 
 Upper Arm:
 
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/FINALUPPERARM.PNG)
 
 
 ### Major Design Decisions and Changes from Phase 1
