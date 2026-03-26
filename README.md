@@ -29,13 +29,13 @@
 
 [*Overview of your final design*](#Overview-of-the-Final-Design)
 
-*Description of major design decisions and changes from Phase 1*
+[*Description of major design decisions and changes from Phase 1*](#Major-Design-Decisions-and-Changes-from-Phase-1)
 
-*Detailed explanation of required analyses (shaft, gear, fatigue, bearings, interfaces, etc.) with clear assumptions and results*
+[*Detailed explanation of required analyses*](#Explanation-of-Required-Analyses)
 
-*Discussion of design for assembly*
+[*Discussion of design for assembly*](#Discussion-of-Design-for-Assembly)
 
-*Updated list of anticipated risks or weaknesses to be addressed in prototyping*
+[*Updated list of anticipated risks or weaknesses to be addressed in prototyping*](#Updated-List-of-Anticipated-Risks-and-Weaknesses)
 
 ### Phase 3
 *Phase 3 Video*
@@ -148,7 +148,7 @@ Middle Arm:
 
 Upper Arm:
 
-### Major Design Decisions and Changes
+### Major Design Decisions and Changes from Phase 1
 
 The main design consideration was nailing what the actual scale of the final design should be. This hydraulic arm is intended to be used in a factory or industrial setting to grab objects and boxes from around a meter away. It was reasoned that the arm should be able to pick up objects that are maximum around 200 kg in mass, or around 1962 N in weight. The material of the arm was decided to be an aluminum alloy, specifically the general "aluminum alloy" in ANSYS and 6061 aluminum alloy in SOLIDWORKS. This was done to make the arm cost effective while still being reasonably strong.
 
@@ -180,7 +180,7 @@ There are many places on each part that require a very fine mesh to analyze. To 
 
 ### Discussion of Design for Assembly 
 
-### Updated Risks and/or Weaknesses Addressed
+### Updated List of Anticipated Risks and Weaknesses
 With the analysis, there are key locations where stress concentrations can cause the hydraulic arm to fail. With most of the arm's material being 6061-T6, the yield stress of the material is 276 MPa (~40,000 psi). With this in mind, the stress concentrations locate around the arm that connects to the claw. Due to the extruded cuts to allow the claw to maneuver freely without interference, the sharp corners are prone to larger von Mises stresses. To accommodate for these large values, fillets were added, but the concentrations still prevail.
 
 Another weakness is the length ratio of the arm that connects to the base and the arm that connects to the claw. Initially, while the arm that connects to the base does not undergo large amounts of stress, the arm that connects to the claw does. With a maximum weight of 200 kg, if the length of the arm is too long, then it can snap due to the very large bending stress. Finding the ratio between the two arms is important, where the criteria is to ensure that the upper arm does not snap but can also still pick up objects properly. The final ratio chosen between the two arms is (*Insert ratio here*). Another way this issue was addressed was by making the upper arm taller than it was initally. Initally, the arm was constructed as a flat plate that was wider than it was tall, which ended up being a mistake. 
