@@ -131,6 +131,8 @@ https://dspace.mit.edu/bitstream/handle/1721.1/89359/51805839-MIT.pdf?sequence=2
 ## Phase 2 
 ### Phase 2 Video
 
+[![Phase 2 Video](figures/Phase2Thumbnail.png)](https://www.youtube.com/watch?v=s98DLPxDFDA)
+
 ### Overview of the Final Design
 A hydraulic arm was created using SolidWorks and ANSYS. The choice of using two different softwares comes from the different analyses that both of these softwares can do. With SolidWorks, it can do simple FEA calculations, and its software allows ease of creating components and assembling the components together. On the other hand, ANSYS can do complex FEA calculations and provide a more detailed analysis on how the structure reacts under stress. With both of these softwares in mind, the decision came down to assembling and analyzing the full hydraulic arm in SolidWorks, and then do a more in-depth analysis on each of the components using ANSYS. Images of the assembly isometric view, the assembly exploded view, and each of the components can be found below: 
 
