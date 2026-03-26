@@ -148,6 +148,22 @@ To create the claw, the initial concept design was referenced. The concept was d
 
 There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis done in SOLIDWORKS was done on an assembly of the entire claw to identify what the critical angles of the claw are for analysis, the maximum deflection at the claw, and the critical areas of stress in the arm were. The analysis done in ANSYS was done on each of the critical parts individually to determine if they had a factor of safety of at least 3 for static stresses and at least 2 for fatique stresses. The static factor of safety was tested by comparing the von Mises stress to the Young's Modulus of 6061 aluminum. The fatique factor of safety was tested by using a zero-based loading, the Goodman mean stress theory, a design life of 1 million cycles, and the von Mises stress.  
 
+(*Insert SOLIDWORKS analysis here*) 
+
+The teaching version of ANSYS that is installed on the GWC 481 lab computers was needed for the ANSYS analysis. The student version of ANSYS has a cap on the number of nodes and elements a model can use for its mesh. Every analysis in ANSYS exceeded this number of nodes and elements allowed in the student version, so the teaching version of ANSYS was required for every analysis. 
+
+The parts chosen for an in-depth analysis in ANSYS were (*insert things here*). Each of these parts were analyzed using an initial mesh size of 5 mm. Their geometry with their initial mesh size can be seen in the images below: 
+
+There are many places on each part that require a very fine mesh to analyze. To make the analysis as efficient as possible, the faces that had the highest stress were selected to include in an automatic convergence analysis. Only these selected faces will be analyzed with the automatic convergence analysis instead of the entire structure. This saves a lot of time, nodes, and elements. The convergence analysis was chosen to have a maximum change in von Mises stress of 5%. The locations analyzed in the convergence analysis can be seen in the images below: 
+
+The results of the ANSYS analysis to find the static factor of safety and the fatigue factor of safety can be seen in the table below: 
+
+| Part Analyzed | Static Safety Factor | Fatigue Safety Factor |
+| - - - - - - - - - - - | - - - - - - - - - - - - - - -| - - - - - - - - - - - - - - - - - |
+| Claw | 3.67 | 2.45 |
+
+
+
 ### Design for Assembly (3D Printing?)
 
 ### Updated Risks and/or Weaknesses Addressed
