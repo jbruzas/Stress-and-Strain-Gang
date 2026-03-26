@@ -134,19 +134,33 @@ https://dspace.mit.edu/bitstream/handle/1721.1/89359/51805839-MIT.pdf?sequence=2
 ### Overview of the Final Design
 A hydraulic arm was created using SolidWorks and ANSYS. The choice of using two different softwares comes from the different analyses that both of these softwares can do. With SolidWorks, it can do simple FEA calculations, and its software allows ease of creating components and assembling the components together. On the other hand, ANSYS can do complex FEA calculations and provide a more detailed analysis on how the structure reacts under stress. With both of these softwares in mind, the decision came down to assembling and analyzing the full hydraulic arm in SolidWorks, and then do a more in-depth analysis on each of the components using ANSYS. Images of the assembly isometric view, the assembly exploded view, and each of the components can be found below: 
 
-Assembly Isometric View: 
+Hydraulic Arm Assembly:
 
-Assembly Exploded View: 
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Assembly%20Image.png)
+
+Hydraulic Arm Exploded View: 
+
+
 
 Claw: 
 
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Claw%20Image.png)
+
 Hydraulic: 
+
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Base%20Hydrolic%20Image.png)
 
 Base: 
 
-Middle Arm: 
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Base%20Image.png)
+
+Middle Arm:
+
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Middle%20Arm%20Image.png)
 
 Upper Arm:
+
+
 
 ### Major Design Decisions and Changes from Phase 1
 
