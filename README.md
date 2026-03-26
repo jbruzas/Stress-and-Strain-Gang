@@ -140,7 +140,7 @@ Hydraulic Arm Assembly:
 
 Hydraulic Arm Exploded View: 
 
-
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/MEE%20342%20Robotical%20Arm%20Assembly%20Exploded%20View%20Image.png)
 
 Claw: 
 
