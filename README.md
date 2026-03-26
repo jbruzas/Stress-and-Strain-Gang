@@ -35,7 +35,7 @@
 
 [*Discussion of design for assembly*](#Discussion-of-Design-for-Assembly)
 
-[*Updated list of anticipated risks or weaknesses to be addressed in prototyping*](#Updated-List-of-Anticipated-Risks-and-Weaknesses)
+[*Updated list of anticipated risks and weaknesses*](#Updated-List-of-Anticipated-Risks-and-Weaknesses)
 
 ### Phase 3
 *Phase 3 Video*
