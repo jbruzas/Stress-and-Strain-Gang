@@ -151,4 +151,5 @@ There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis d
 ### Design for Assembly (3D Printing?)
 
 ### Updated Risks and/or Weaknesses Addressed
-
+With the analysis, there are key locations where stress concentrations can cause the hydraulic arm to fail. With most of the arm's material being 6061-T6, the yield stress of the material is 276 MPa (~40,000 psi). With this in mind, the stress concentrations locate around the arm that connects to the claw. Due to the extruded cuts to allow the claw to maneuver freely without interference, the sharp corners are prone to larger von Mises stresses. To accommodate for these large values, fillets were added, but the concentrations still prevail.
+Another weakness is the length ratio of the arm that connects to the base and the arm that connects to the claw. Initially, while the arm that connects to the base does not undergo large amounts of stress, the arm that connects to the claw does. With a maximum weight of 200 kg, if the length of the arm is too long, then it can snap. Finding the ratio between the two arms is important, where the criteria is to ensure that the upper arm does not snap but can also still pick up objects properly.
