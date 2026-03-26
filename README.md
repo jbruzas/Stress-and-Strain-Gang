@@ -33,7 +33,7 @@
 
 *Detailed explanation of required analyses (shaft, gear, fatigue, bearings, interfaces, etc.) with clear assumptions and results*
 
-*Discussion of design for assembly and design for 3D printing*
+*Discussion of design for assembly*
 
 *Updated list of anticipated risks or weaknesses to be addressed in prototyping*
 
@@ -156,15 +156,17 @@ The teaching version of ANSYS that is installed on the GWC 481 lab computers was
 
 The parts chosen for an in-depth analysis in ANSYS were (*insert things here*). Each of these parts were analyzed using an initial mesh size of 5 mm. Their geometry with their initial mesh size can be seen in the images below: 
 
-There are many places on each part that require a very fine mesh to analyze. To make the analysis as efficient as possible, the faces that had the highest stress were selected to include in an automatic convergence analysis. Only these selected faces will be analyzed with the automatic convergence analysis instead of the entire structure. This saves a lot of time, nodes, and elements. The convergence analysis was chosen to have a maximum change in von Mises stress of 5%. The locations analyzed in the convergence analysis can be seen in the images below: 
+Claw Mesh: 
 
-The results of the ANSYS analysis to find the static factor of safety and the fatigue factor of safety can be seen in the table below: 
+![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/claw_mesh.png)
+
+There are many places on each part that require a very fine mesh to analyze. To make the analysis as efficient as possible, the faces that had the highest stress were selected to include in an automatic convergence analysis. Only these selected faces will be analyzed with the automatic convergence analysis instead of the entire structure. This saves a lot of time, nodes, and elements. The convergence analysis was chosen to have a maximum change in von Mises stress of 5%. The results of the ANSYS analysis to find the static factor of safety and the fatigue factor of safety can be seen in the table below: 
 
 | Part Analyzed | Static Safety Factor | Fatigue Safety Factor |
 | --------------| ------------ | ------- |
-| Claw | 3.67 | 2.45 |
+| Claw | 3.71 | 2.47 |
 
-### Design for Assembly (3D Printing?)
+### Discussion of Design for Assembly 
 
 ### Updated Risks and/or Weaknesses Addressed
 With the analysis, there are key locations where stress concentrations can cause the hydraulic arm to fail. With most of the arm's material being 6061-T6, the yield stress of the material is 276 MPa (~40,000 psi). With this in mind, the stress concentrations locate around the arm that connects to the claw. Due to the extruded cuts to allow the claw to maneuver freely without interference, the sharp corners are prone to larger von Mises stresses. To accommodate for these large values, fillets were added, but the concentrations still prevail.
