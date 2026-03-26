@@ -27,7 +27,7 @@
 ### Phase 2
 *Phase 2 Video*
 
-*Overview of your final design (with key CAD images)*
+[*Overview of your final design*](#Overview-of-the-Final-Design)
 
 *Description of major design decisions and changes from Phase 1*
 
