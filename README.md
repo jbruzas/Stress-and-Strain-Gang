@@ -176,7 +176,7 @@ The final version of the hydraulic arm will use manufacturing grade hydraulics m
 
 There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis done in SOLIDWORKS was done on an assembly of the entire claw to identify what the critical angles of the claw are for analysis, the maximum deflection at the claw, the critical areas of stress in the arm were, and to create a motion study. The analysis done in ANSYS was done on each of the critical parts individually to determine if they had a factor of safety of at least 3 for static stresses and at least 2 for fatigue stresses. The static factor of safety was tested by comparing the von Mises stress to the Yield Strength of 6061 aluminum. The fatigue factor of safety was tested by using a zero-based loading, the Goodman mean stress theory, a design life of 1 million cycles, and the von Mises stress.  
 
-(* Anthony include what you did in your SOLIDWORKS analysis here, including the results *) 
+SOLIDWORKS was first used to do a static analysis of the hydraulic arm. First, an assembly had to be made of the arm that was fully constraint. Then, this assembly cna be put directly into a static simulation. The base of the hydraulic arm was treated as a fixed support, and a 981 N force was placed on each clamp of the claw to simulate the weight of a 200 kg object. The results of this analysis showed that the highest von Mises stress was 1.722 x 10^8 Pa, or a factor of safety of 1.62 when accounting for 6061 aluminum's Yield Strength of 2.8 x 10^8 MPa. The area that the max stress was present in was the thin portions of the upper arm. Thus, the upper arm was chosen to be analyzed in ANSYS, with the claw also being analyzed in ANSYS due to needing the internal force between the claw and upper arm to analyze the upper arm. The stress contour for the SOLIDWORKS statics analysis can be seen below: 
 
 ![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/Full%20Assembly%20Analysis.png)
 
@@ -196,7 +196,7 @@ Upper Arm Mesh:
 
 ![image alt](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/arm_mesh.png)
 
-The claw was analyzed by applying a 2000 N force to the clampers of the claw, applying displacement boundary conditions to the connections between the claw and the arm, and applying a fixed support boundary condition to the connection where the hydraulic would be. Then, the force and moment reactions were probed for at these points, which will be used in the upper arm analysis. 
+The claw was analyzed by applying a 2000 N force to the clamps of the claw, applying displacement boundary conditions to the connections between the claw and the arm, and applying a fixed support boundary condition to the connection where the hydraulic would be. Then, the force and moment reactions were probed for at these points, which will be used in the upper arm analysis. 
 
 The upper arm used the calculated forces and moments (times -1) in the area where it would be connected to the claw. Then, it was assumed that the forces that the hydraulic exerted on the upper arm is similar to what it exerted on the claw, so the force and moment reactions (times -1) between the claw and the hydraulic were reused here. The place where the upper arm would be connected to the middle arm used the fixed support boundary condition to garantee that there would be no rigid body motion.  
 
