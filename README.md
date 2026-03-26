@@ -132,15 +132,27 @@ https://dspace.mit.edu/bitstream/handle/1721.1/89359/51805839-MIT.pdf?sequence=2
 ### Phase 2 Video
 
 ### Overview of the Final Design
-A hydraulic arm was created using SolidWorks and ANSYS. The choice of using two different softwares comes from the different analyses that both of these softwares can do. With SolidWorks, it can do simple FEA calculations, and its software allows ease of creating components and assembling the components together. On the other hand, ANSYS can do complex FEA calculations and provide a more detailed analysis on how the structure reacts under stress. With both of these softwares in mind, the decision came down to assembling and analyzing the full hydraulic arm in SolidWorks, and then do a more in-depth analysis on each of the components using ANSYS.
+A hydraulic arm was created using SolidWorks and ANSYS. The choice of using two different softwares comes from the different analyses that both of these softwares can do. With SolidWorks, it can do simple FEA calculations, and its software allows ease of creating components and assembling the components together. On the other hand, ANSYS can do complex FEA calculations and provide a more detailed analysis on how the structure reacts under stress. With both of these softwares in mind, the decision came down to assembling and analyzing the full hydraulic arm in SolidWorks, and then do a more in-depth analysis on each of the components using ANSYS. Images of the assembly isometric view, the assembly exploded view, and each of the components can be found below: 
 
-(Insert images of the isometric, exploded, and each of thee components)
+Assembly Isometric View: 
+
+Assembly Exploded View: 
+
+Claw: 
+
+Hydraulic: 
+
+Base: 
+
+Middle Arm: 
+
+Upper Arm:
 
 ### Major Design Decisions and Changes
 
 The main design consideration was nailing what the actual scale of the final design should be. This hydraulic arm is intended to be used in a factory or industrial setting to grab objects and boxes from around a meter away. It was reasoned that the arm should be able to pick up objects that are maximum around 200 kg in mass, or around 1962 N in weight. The material of the arm was decided to be an aluminum alloy, specifically the general "aluminum alloy" in ANSYS and 6061 aluminum alloy in SOLIDWORKS. This was done to make the arm cost effective while still being reasonably strong.
 
-The length of the upper and lower arms together should be 20% longer than the intended maximum reach, or around 1.2 m. At the start of phase 1, it was assumed that the two arms were going to be roughly the same length just to make constructing the inital CAD model easier. However, analyzing the system in both SOLIDWORKS and ANSYS determined that the upper arm needs to be shorter than the lower arm. This is due to the fact that there are significant bending stresses in the middle of the upper arm and there is significant deflection at the edge of the claw. Shortening the upper arm to be about (*insert ratio here*) the size of the lower arm was done to fix the stress and deflection issues. It was eventually chosen that the upper arm should be (*insert length here*) m long and the lower arm is 0.7 m long. 
+The length of the upper and middle arms together should be 20% longer than the intended maximum reach, or around 1.2 m. At the start of phase 1, it was assumed that the two arms were going to be roughly the same length just to make constructing the inital CAD model easier. However, analyzing the system in both SOLIDWORKS and ANSYS determined that the upper arm needs to be shorter than the middle arm. This is due to the fact that there are significant bending stresses in the middle of the upper arm and there is significant deflection at the edge of the claw. Shortening the upper arm to be about (*insert ratio here*) the size of the middle arm was done to fix the stress and deflection issues. It was eventually chosen that the upper arm should be  m long and the middle arm is 0.7 m long. 
 
 To create the claw, the initial concept design was referenced. The concept was designed with a four-bar system that translates linear motion (of a hydraulic) to dual, perpendicular linear motion (of the grippers). The links were designed first with the pin holes in mind for connecting the claw pieces together. Secondary links were made to allow room for the arm upon which the claw is mounted. The gripper was initially designed with a flat face, but was subsequently changed mid-modeling to have a channel that can hold rubber or other adhesive for better grip when the claw is in use.
 
@@ -148,7 +160,7 @@ The hydraulic was designed based off
 
 ### Explanation of Required Analyses
 
-There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis done in SOLIDWORKS was done on an assembly of the entire claw to identify what the critical angles of the claw are for analysis, the maximum deflection at the claw, and the critical areas of stress in the arm were. The analysis done in ANSYS was done on each of the critical parts individually to determine if they had a factor of safety of at least 3 for static stresses and at least 2 for fatique stresses. The static factor of safety was tested by comparing the von Mises stress to the Young's Modulus of 6061 aluminum. The fatique factor of safety was tested by using a zero-based loading, the Goodman mean stress theory, a design life of 1 million cycles, and the von Mises stress.  
+There were two analyses done, one in SOLIDWORKS and one in ANSYS. The analysis done in SOLIDWORKS was done on an assembly of the entire claw to identify what the critical angles of the claw are for analysis, the maximum deflection at the claw, and the critical areas of stress in the arm were. The analysis done in ANSYS was done on each of the critical parts individually to determine if they had a factor of safety of at least 3 for static stresses and at least 2 for fatigue stresses. The static factor of safety was tested by comparing the von Mises stress to the Yield Strength of 6061 aluminum. The fatigue factor of safety was tested by using a zero-based loading, the Goodman mean stress theory, a design life of 1 million cycles, and the von Mises stress.  
 
 (*Insert SOLIDWORKS analysis here*) 
 
