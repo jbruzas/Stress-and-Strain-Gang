@@ -207,7 +207,25 @@ The claw was analyzed by applying a 2000 N force to the clamps of the claw, appl
 
 The upper arm used the calculated forces and moments (times -1) in the area where it would be connected to the claw. Then, it was assumed that the forces that the hydraulic exerted on the upper arm is similar to what it exerted on the claw, so the force and moment reactions (times -1) between the claw and the hydraulic were reused here. The place where the upper arm would be connected to the middle arm used the fixed support boundary condition to garantee that there would be no rigid body motion.  
 
-There are many places on each part that require a very fine mesh to analyze. To make the analysis as efficient as possible, the faces that had the highest stress were selected to include in an automatic convergence analysis. Only these selected faces will be analyzed with the automatic convergence analysis instead of the entire structure. This saves a lot of time, nodes, and elements. The convergence analysis was chosen to have a maximum change in von Mises stress of 5%. The results of the ANSYS analysis to find the static factor of safety and the fatigue factor of safety can be seen in the table below: 
+There are many places on each part that require a very fine mesh to analyze. To make the analysis as efficient as possible, the faces that had the highest stress were selected to include in an automatic convergence analysis. Only these selected faces will be analyzed with the automatic convergence analysis instead of the entire structure. This saves a lot of time, nodes, and elements. The convergence analysis was chosen to have a maximum change in von Mises stress of 5%. The results of the ANSYS analysis to find the static factor of safety and the fatigue factor of safety can be seen in the figures below: 
+
+Claw Static Factor of Safety: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/claw_safety_static.png)
+
+Claw Fatique Factor of Safety: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/claw_safety_fatigue.png)
+
+Upper Arm Static Factor of Safety: 
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/upper_arm_static_safety_factor.png)
+
+Upper Arm Fatique Factor of Safety: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/upper_arm_fatique_safety_factor.png)
+
+
+The critical factor of safeties are summarized in the table below: 
 
 | Part Analyzed | Static Safety Factor | Fatigue Safety Factor |
 | --------------| ------------ | ------- |
