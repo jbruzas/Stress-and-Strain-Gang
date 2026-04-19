@@ -232,7 +232,7 @@ The critical factor of safeties are summarized in the table below:
 | Claw | 3.71 | 2.47 |
 | Upper Arm | 1.00 | 0.66 |
 
-Unfortunately, the ANSYS simulation predicted even worse stresses within the upper arm than the SOLIDWORKS simulation did. This means that if the upper arm was used in rela application, the upper arm will cause the hydraulic arm to eventually fail. This makes the current design of the hydraulic arm unusable in its current state. This means that a complete redesign of the upper arm is needed in phase 3. This would have been fixed in phase 2, but was kept in due to time costraints. 
+Unfortunately, the ANSYS simulation predicted even worse stresses within the upper arm than the SOLIDWORKS simulation did. This means that if the upper arm was used in real application, the upper arm will cause the hydraulic arm to eventually fail. This makes the current design of the hydraulic arm unusable in its current state. This means that a complete redesign of the upper arm is needed in phase 3. This would have been fixed in phase 2, but was kept in due to time costraints. 
 
 ### Discussion of Design for Assembly 
 
