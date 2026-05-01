@@ -27,7 +27,6 @@
 ### [Phase 2](#phase-2-1)
 [*Phase 2 Video*](#Phase-2-Video)
 
-
 [*Overview of your final design*](#Overview-of-the-Final-Design)
 
 [*Description of major design decisions and changes from Phase 1*](#Major-Design-Decisions-and-Changes-from-Phase-1)
@@ -40,6 +39,7 @@
 
 ### Phase 3
 *Phase 3 Video*
+
 *Fabrication details (filament type, printer, settings, number of reprints)*
 
 *Assembly procedure and challenges*
@@ -256,3 +256,16 @@ https://kawasakirobotics.com/products-robots/mx420l/
 https://www.nbmaxauto.com/news/hydraulic-cylinder-piston-rod-materials-guide/
 https://kawasakirobotics.com/blog/the-ins-outs-of-industrial-robot-arms/
 
+## Phase 3
+
+### Fabrication details
+
+### Assembly procedure and challenges
+
+### Test procedures, results, and interpretation
+
+### Comparison with Phase 2 predictions (where applicable)
+
+### Detailed discussion of failures, mistakes, and surprises
+
+### Concrete list of design changes you would implement in a second iteration
