@@ -280,4 +280,10 @@ There is a smaller issue of the prototype not being able to lift up as much mass
 What as most suprising is that even when all of these mistakes were made, the prototype still came out functional. It required human help, but the arm could grab an object and lift it up as was initally intended. There was almost always something that we could do to make up for failures of the assembly process. The arm certainly had issues that did not allow it to perform as well as it could have. However, it was still a function prototype that gets the job done. 
 
 ### Concrete list of design changes you would implement in a second iteration
+#### Frame
+Part of the largest struggles came from the poorly optimized frame design. In the future iterations, the frame base would be changed to allow room for interference-free rotation of the middle arm piece, and would also be redesigned to optimize weight and stress produced by the base hydraulic motion. Additionally, the middle arm would be designed to print in a thinner shape that is not prone to warping when undergoing fillament layering. The upper arm would need heavy redesign to restructure the point of failure under heavy object conditions, as well as beam shape and attachment points for the upper hydraulic and claw. 
+
 #### Claw
+The claw itself must undergo a series of rigorous testing to ensure that all pin joints can withstand excessive cyclic loading, especially those connected directly to the point of rotation in the four-bar mechanism. The claw grippers would also need to be redesigned to reduce the overengineering and compliment the function of the structure better, especially when expected to hold objects from the sides. More extensive research into claw mechanisms could lend towards optimizing the motion of the claw, but this is secondary.
+
+#### Hydraulic
