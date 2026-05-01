@@ -265,6 +265,7 @@ The industrial hydraulic arm assembled and modelled from Phase 2 was used in Pha
 ### Test procedures, results, and interpretation
 
 ### Comparison with Phase 2 predictions
+In phase 2, the design was anticipated to have difficulty with shear stress acting across the middle upper arm piece, specifically the thinner sections toward the edges. In practice, once the prototype was built, the issue was of no concern because no object that was lifted in demonstration was heavy enough to cause deformation of any kind. However, this ended up subverting initial predictions when dealing with grip strength, as this was a much higher concern that predicted in phase 2. Without accounting for the friction necessary to hold up certain objects, the claw experienced the difficulty in grabbing sleek objects (such as an aluminum can), but still performed well as hoped with a simple piece of styrofoam.
 
 ### Detailed discussion of failures, mistakes, and surprises
 
