@@ -269,6 +269,8 @@ Due to the safety factor in phase two being low, it is necessary to use a filame
 
 Wall loops are often a more efficent way to increase strength compared to increasing the infill. However, the scale used caused most of the cross section to be taken up by the wall loops, so only using two loops was deemed appropriate. Overfilling the cross section could cause warping or pretension in parts due to uneven cooling. This consideration is especially important with PETG due to it having a high coefficient of thermal expansion and relatively high nozzle temperature requirement. Automatic tree supports were used, but support was manually added to areas that the software appeared to leave too unsupported. Tree supports were used rather than normal supports due to them being able to remove from prints in most situations.
 
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/PrintFile.png)
+
 ### Assembly procedure and challenges
 The industrial hydraulic arm assembled and modelled from Phase 2 was used in Phase 3. With SolidWorks, the assembly can be scaled down to an appropiate size. Due to this, the decision was to use a scaling factor of 4 to reduce the total height of the hydraulic arm to just 18 inches. A challenge occurred when the 3D-printed pins did not fit into the holes. This happened because the tolerance was forgotten and was not considered into the CAD-ing of the model. The solution was to sand the pins down until it can fit into the holes. 
 
@@ -338,3 +340,5 @@ The claw itself must undergo a series of rigorous testing to ensure that all pin
 
 #### Hydraulic
 The prototype ended with printing problems in regards to the hydraulic systems, as the scale was too small for the tolerances and design choices made. In the future, there will be more effort towards hydraulic systems that can support 3D printed material, and the body will be redesigned to be slightly larger to make this happen. Additionally, the piston can be printed with linkages so the issue of resistance to adhesive bondage will not arise. Lastly, the hydraulics will be modeled with accurate fluid processes in mind to provide a real world sense of logistic use in the system's motion.
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/HydraulicInterference.png)
