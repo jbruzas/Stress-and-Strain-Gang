@@ -38,7 +38,7 @@
 [*Updated list of anticipated risks and weaknesses*](#Updated-List-of-Anticipated-Risks-and-Weaknesses)
 
 ### [Phase 3](#phase-3-1)
-*Phase 3 Video*
+[*Phase 3 Video*](#phase-3-video)
 
 [*Fabrication details (filament type, printer, settings, number of reprints)*](#fabrication-details)
 
