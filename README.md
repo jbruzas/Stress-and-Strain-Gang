@@ -259,7 +259,7 @@ https://kawasakirobotics.com/blog/the-ins-outs-of-industrial-robot-arms/
 ## Phase 3
 ### Phase 3 Video
 
-[![Phase 3 Video](figures/Phase1Thumbnail.png)](https://www.youtube.com/watch?v=1qJN9OqaXxU)
+[![Phase 3 Video](figures/Phase1Thumbnail.png)](https://www.youtube.com/watch?v=esKlWymPIM4)
 
 ### Fabrication details
 Due to the safety factor in phase two being low, it is necessary to use a filament that is both stronger and more ductile. For this reason, PETG was selected over PLA. A Creality K1 SE printer was used with a 0.4mm nozzle. The print settings used are as follows:
