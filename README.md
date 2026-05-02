@@ -259,6 +259,12 @@ https://kawasakirobotics.com/blog/the-ins-outs-of-industrial-robot-arms/
 ## Phase 3
 
 ### Fabrication details
+Due to the safety factor in phase two being low, it is necessary to use a filament that is both stronger and more ductile. For this reason, PETG was selected over PLA. A Creality K1 SE printer was used with a 0.4mm nozzle. The print settings used are as follows:
+* Wall Loops: 2
+* Sparse Infill Density: 25%
+* Support Type: Tree (Auto)
+
+Wall loops are often a more efficent way to increase strength compared to increasing the infill. However, the scale used caused most of the cross section to be taken up by the wall loops, so only using two loops was deemed appropriate. Overfilling the cross section could cause warping or pretension in parts due to uneven cooling. This consideration is especially important with PETG due to it having a high coefficient of thermal expansion and relatively high nozzle temperature requirement. Automatic tree supports were used, but support was manually added to areas that the software appeared to leave too unsupported. Tree supports were used rather than normal supports due to them being able to remove from prints in most situations.
 
 ### Assembly procedure and challenges
 The industrial hydraulic arm assembled and modelled from Phase 2 was used in Phase 3. With SolidWorks, the assembly can be scaled down to an appropiate size. Due to this, the decision was to use a scaling factor of 4 to reduce the total height of the hydraulic arm to just 18 inches. A challenge occurred when the 3D-printed pins did not fit into the holes. This happened because the tolerance was forgotten and was not considered into the CAD-ing of the model. The solution was to sand the pins down until it can fit into the holes. Another problem that occurred was due to the time constraints, the hydraulic system was not functional. The challenge was to find other parts that can replicate the parts of a hydraulic arm. The conclusion was to use rubber bands that can simulate the movement of the claw and the forearm, and then a spring that connects in betwen the base and the middle arm.
