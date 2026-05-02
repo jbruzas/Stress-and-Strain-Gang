@@ -288,11 +288,7 @@ Full Rubber band and Spring View:
 
 The test procedure requires an operator present to actuate the arm. Objects of various sizes and weights will be tested to see if the arm can pick them up. 
 
-First, the operator will slowly pull the arm down until it can grab the object. Then, the operator will manually actuate the claw to grip onto the object. The operator will let go of the arm and the arm will slowly rise up into its most upright position. The reverse is done in order to set the object back down. The operator will pull the arm down, manually actuate the claw to let go of the object, and let go of the arm to let is rise to its inital position. The initial setup and two gifs of the test can be seen below: 
-
-Initial Setup of the Test: 
-
-![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/2.5lbTest.jpg)
+First, the operator will slowly pull the arm down until it can grab the object. Then, the operator will manually actuate the claw to grip onto the object. The operator will let go of the arm and the arm will slowly rise up into its most upright position. The reverse is done in order to set the object back down. The operator will pull the arm down, manually actuate the claw to let go of the object, and let go of the arm to let is rise to its inital position. Two gifs of the test can be seen below: 
 
 Arm Picking Up Object: 
 
@@ -315,9 +311,17 @@ There were many mistakes made during the assembly and testing of the hydraulic a
 
 There were several issues with 3D printing. The tolerances when 3D printing some of the parts was too small. The tolerance for the pins was set to 0.25 mm, which ended up being too small. The pins did not fit into the pin holes of the other parts, so the pins had to be sanded down until they could fit. This sanding process, ironically, also caused some of the pins to fit loosely on the claw. This meant that rubber abnds needed to be used to preventthe claw from coming apart. When assemblying the arm initally, some of the sections of the upper arm broke off due to handling the parts not carefully enough. The upper arm had to be reprinted later after this mistake. 
 
-A big mistake was made while scaling down the phase 2 model to be 3D printed. There is a gap in the upper arm whose purpose is to allow the claw mechanics to fully open and close. In order to make this gap possible, certain parts of the upper arm were scaled to make sure that the bars of the claw can never intersect the upper arm. This scaling required a trig operation, which SOLIDWORKS did not like. In order to scale it down, an approximation of this trig operation was made. As a result of this approximation, the 3D printed design did have intersections between the upper arm and the claw, which causes the claw to not fully open. To fix this, a different approximation should be used to prevent the intersection. One could also redesign the upper arm to make approximation issues much less likely to result in a failures like this.  
+A big mistake was made while scaling down the phase 2 model to be 3D printed. There is a gap in the upper arm whose purpose is to allow the claw mechanics to fully open and close. In order to make this gap possible, certain parts of the upper arm were scaled to make sure that the bars of the claw can never intersect the upper arm. This scaling required a trig operation, which SOLIDWORKS did not like. In order to scale it down, an approximation of this trig operation was made. As a result of this approximation, the 3D printed design did have intersections between the upper arm and the claw, which causes the claw to not fully open. To fix this, a different approximation should be used to prevent the intersection. One could also redesign the upper arm to make approximation issues much less likely to result in a failures like this. The areas of the upper arm that would have to be resdesigned can be seen in the figure below: 
 
-There is a smaller issue of the prototype not being able to lift up as much mass as was intended. The claw was tested lifting a 2.5 lb plate, and the claw failed to lift tha plate. This was due to the claw not having enough grip, which caused the plate to slip out of its grasp. A material with high friction, like rubber, would have solved this issue, but we were too short sighted to implement this rubber during phase 3. 
+Necessary Area of Upper Arm to be Redesigned: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/upper_arm_future_modification.png)
+
+There is a smaller issue of the prototype not being able to lift up as much mass as was intended. The claw was tested lifting a 2.5 lb plate, and the claw failed to lift tha plate. This was due to the claw not having enough grip, which caused the plate to slip out of its grasp. A material with high friction, like rubber, would have solved this issue, but we were too short sighted to implement this rubber during phase 3. A picture of the plate can be see below: 
+
+Arm with the 2.5 lb plate: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/2.5lbTest.jpg)
 
 What as most suprising is that even when all of these mistakes were made, the prototype still came out functional. It required human help, but the arm could grab an object and lift it up as was initally intended. There was almost always something that we could do to make up for failures of the assembly process. The arm certainly had issues that did not allow it to perform as well as it could have. However, it was still a function prototype that gets the job done. 
 
