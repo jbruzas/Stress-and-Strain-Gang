@@ -40,17 +40,17 @@
 ### Phase 3
 *Phase 3 Video*
 
-*Fabrication details (filament type, printer, settings, number of reprints)*
+[*Fabrication details (filament type, printer, settings, number of reprints)*](#fabrication-details)
 
-*Assembly procedure and challenges*
+[*Assembly procedure and challenges*](#assembly-procedure-and-challenges)
 
-*Test procedures, results, and interpretation*
+[*Test procedures, results, and interpretation*](#test-procedures-results-and-interpretation)
 
-*Comparison with Phase 2 predictions (where applicable)*
+[*Comparison with Phase 2 predictions (where applicable)*](#comparison-with-phase-2-predictions)
 
-*Detailed discussion of failures, mistakes, and surprises*
+[*Detailed discussion of failures, mistakes, and surprises*](#detailed-discussion-of-failures-mistakes-and-surprises)
 
-*Concrete list of design changes you would implement in a second iteration*
+[*Concrete list of design changes you would implement in a second iteration*](#concrete-list-of-design-changes-you-would-implement-in-a-second-iteration)
 
 ## Phase 1
 ### Phase 1 Video
