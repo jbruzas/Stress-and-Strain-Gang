@@ -267,13 +267,40 @@ Due to the safety factor in phase two being low, it is necessary to use a filame
 Wall loops are often a more efficent way to increase strength compared to increasing the infill. However, the scale used caused most of the cross section to be taken up by the wall loops, so only using two loops was deemed appropriate. Overfilling the cross section could cause warping or pretension in parts due to uneven cooling. This consideration is especially important with PETG due to it having a high coefficient of thermal expansion and relatively high nozzle temperature requirement. Automatic tree supports were used, but support was manually added to areas that the software appeared to leave too unsupported. Tree supports were used rather than normal supports due to them being able to remove from prints in most situations.
 
 ### Assembly procedure and challenges
-The industrial hydraulic arm assembled and modelled from Phase 2 was used in Phase 3. With SolidWorks, the assembly can be scaled down to an appropiate size. Due to this, the decision was to use a scaling factor of 4 to reduce the total height of the hydraulic arm to just 18 inches. A challenge occurred when the 3D-printed pins did not fit into the holes. This happened because the tolerance was forgotten and was not considered into the CAD-ing of the model. The solution was to sand the pins down until it can fit into the holes. Another problem that occurred was due to the time constraints, the hydraulic system was not functional. The challenge was to find other parts that can replicate the parts of a hydraulic arm. The conclusion was to use rubber bands that can simulate the movement of the claw and the forearm, and then a spring that connects in betwen the base and the middle arm. Due to the addition of rubber bands and springs to replace the hydraulics, the arm will automatically rise up to its most upright position. This means that the arm does not need operator help to lift up an object.
+The industrial hydraulic arm assembled and modelled from Phase 2 was used in Phase 3. With SolidWorks, the assembly can be scaled down to an appropiate size. Due to this, the decision was to use a scaling factor of 4 to reduce the total height of the hydraulic arm to just 18 inches. A challenge occurred when the 3D-printed pins did not fit into the holes. This happened because the tolerance was forgotten and was not considered into the CAD-ing of the model. The solution was to sand the pins down until it can fit into the holes. 
+
+Another problem that occurred was due to the time constraints, the hydraulic system was not functional. The challenge was to find other parts that can replicate the parts of a hydraulic arm. The conclusion was to use rubber bands that can simulate the movement of the claw and the forearm, and then a spring that connects in betwen the base and the middle arm. Due to the addition of rubber bands and springs to replace the hydraulics, the arm will automatically rise up to its most upright position. This means that the arm does not need operator help to lift up an object. The rubber band and spring modifications ca be seen in the pictures below: 
+
+Rubber bands: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/ProtoRubberBand.jpg)
+
+Spring: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/ProtoSpring.jpg)
+
+Full Rubber band and Spring View: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/ProtoArm.jpg)
+
 
 ### Test procedures, results, and interpretation
 
 The test procedure requires an operator present to actuate the arm. Objects of various sizes and weights will be tested to see if the arm can pick them up. 
 
-First, the operator will slowly pull the arm down until it can grab the object. Then, the operator will manually actuate the claw to grip onto the object. The operator will let go of the arm and the arm will slowly rise up into its most upright position. The reverse is done in order to set the object back down. The operator will pull the arm down, manually actuate the claw to let go of the object, and let go of the arm to let is rise to its inital position. 
+First, the operator will slowly pull the arm down until it can grab the object. Then, the operator will manually actuate the claw to grip onto the object. The operator will let go of the arm and the arm will slowly rise up into its most upright position. The reverse is done in order to set the object back down. The operator will pull the arm down, manually actuate the claw to let go of the object, and let go of the arm to let is rise to its inital position. The initial setup and two gifs of the test can be seen below: 
+
+Initial Setup of the Test: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/2.5lbTest.jpg)
+
+Arm Picking Up Object: 
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/PickupEdited2.gif)
+
+Arm Letting Go of Object
+
+![image](https://github.com/jbruzas/Stress-and-Strain-Gang/blob/main/figures/PlaceEdited2.gif)
 
 The result of the test showed that the arm could successfully left up both a styrofoam block and an empty aluminum can. This demo has show that the arm does work in principle. However, there are a few issues that the test shown as well. A 2.5 lb plate was tested to see if the arm could pick it up. The 2.5 lb plate slipped out of the claw during the test and the arm was unable to lift the plate. This failure was due to the friction between the grippers and the plate not being enough to keep the plate from sliding. This shows that objects of higher weights will slip out of the claw, so the arm cannot lift object beyond a certain weight. Another issue was that the claw could not fully open. The claw could grip the smaller side of the styofoam block and lift it, but it could not do the same for the larger side. The reason the claw cannot fully open is because of an intersection issue with some of the bars in the claw and the upper arm. The upper arm effectly serves as a well that stops the claw from opening. 
 
